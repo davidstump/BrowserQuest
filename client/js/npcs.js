@@ -70,6 +70,12 @@ define(['npc'], function(Npc) {
                 this._super(id, Types.Entities.PRIEST, 1);
             }
         }),
+
+        David: Npc.extend({
+            init: function(id) {
+                this._super(id, Types.Entities.DAVID, 1);
+            }
+        }),
         
         BeachNpc: Npc.extend({
             init: function(id) {

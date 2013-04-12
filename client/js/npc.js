@@ -2,6 +2,13 @@
 define(['character'], function(Character) {
 
     var NpcTalk = {
+        "david": [
+          "Howdy",
+          "I'm David, I got bored and made this world",
+          "Feel free to have fun and look around",
+          "Cheers!"
+        ],
+
         "guard": [
             "Hello there",
             "We don't need to see your identification",
